@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B909166E273DEF4800E2A2B8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909166D273DEF4800E2A2B8 /* HomeViewModel.swift */; };
+		B978D830273ADCB000BBC792 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978D82F273ADCB000BBC792 /* CustomTextField.swift */; };
+		B9DFF2F12738B10900A28DE5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DFF2EF2738B10900A28DE5 /* HomeViewController.swift */; };
+		B9DFF2F22738B10900A28DE5 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9DFF2F02738B10900A28DE5 /* HomeViewController.xib */; };
+		F6DE74752734284200D3711B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DE74742734284200D3711B /* AppDelegate.swift */; };
+		F6DE747E2734284500D3711B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6DE747D2734284500D3711B /* Assets.xcassets */; };
+		F6DE74812734284500D3711B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6DE747F2734284500D3711B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B909166D273DEF4800E2A2B8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		B978D82F273ADCB000BBC792 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B9DFF2EF2738B10900A28DE5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B9DFF2F02738B10900A28DE5 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F6DE74712734284200D3711B /* Desafio-j1b.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio-j1b.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DE74742734284200D3711B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6DE747D2734284500D3711B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6DE74802734284500D3711B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6DE74822734284500D3711B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6DE746E2734284200D3711B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B975FB232735E8470027CC74 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				B9DFF2F72738BE8200A28DE5 /* DesignSystem */,
+				B9DFF2ED2738B0DC00A28DE5 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		B975FB242735E8520027CC74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE747D2734284500D3711B /* Assets.xcassets */,
+				F6DE747F2734284500D3711B /* LaunchScreen.storyboard */,
+				F6DE74822734284500D3711B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B975FB262735E8FF0027CC74 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE74742734284200D3711B /* AppDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B9DFF2ED2738B0DC00A28DE5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B909166D273DEF4800E2A2B8 /* HomeViewModel.swift */,
+				B9DFF2EF2738B10900A28DE5 /* HomeViewController.swift */,
+				B9DFF2F02738B10900A28DE5 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B9DFF2F72738BE8200A28DE5 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				B978D82F273ADCB000BBC792 /* CustomTextField.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		F6DE74682734284200D3711B = {
+			isa = PBXGroup;
+			children = (
+				F6DE74732734284200D3711B /* Desafio-j1b */,
+				F6DE74722734284200D3711B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6DE74722734284200D3711B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6DE74712734284200D3711B /* Desafio-j1b.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6DE74732734284200D3711B /* Desafio-j1b */ = {
+			isa = PBXGroup;
+			children = (
+				B975FB232735E8470027CC74 /* Scenes */,
+				B975FB242735E8520027CC74 /* Resources */,
+				B975FB262735E8FF0027CC74 /* Sources */,
+			);
+			path = "Desafio-j1b";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6DE74702734284200D3711B /* Desafio-j1b */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DE74852734284500D3711B /* Build configuration list for PBXNativeTarget "Desafio-j1b" */;
+			buildPhases = (
+				F6DE746D2734284200D3711B /* Sources */,
+				F6DE746E2734284200D3711B /* Frameworks */,
+				F6DE746F2734284200D3711B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio-j1b";
+			productName = "Desafio-j1b";
+			productReference = F6DE74712734284200D3711B /* Desafio-j1b.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6DE74692734284200D3711B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F6DE74702734284200D3711B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = F6DE746C2734284200D3711B /* Build configuration list for PBXProject "Desafio-j1b" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6DE74682734284200D3711B;
+			productRefGroup = F6DE74722734284200D3711B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6DE74702734284200D3711B /* Desafio-j1b */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6DE746F2734284200D3711B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6DE74812734284500D3711B /* LaunchScreen.storyboard in Resources */,
+				F6DE747E2734284500D3711B /* Assets.xcassets in Resources */,
+				B9DFF2F22738B10900A28DE5 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6DE746D2734284200D3711B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B909166E273DEF4800E2A2B8 /* HomeViewModel.swift in Sources */,
+				F6DE74752734284200D3711B /* AppDelegate.swift in Sources */,
+				B978D830273ADCB000BBC792 /* CustomTextField.swift in Sources */,
+				B9DFF2F12738B10900A28DE5 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6DE747F2734284500D3711B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6DE74802734284500D3711B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6DE74832734284500D3711B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6DE74842734284500D3711B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6DE74862734284500D3711B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B792F458DS;
+				INFOPLIST_FILE = "Desafio-j1b/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyagoraphael.com.Desafio-j1b";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F6DE74872734284500D3711B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B792F458DS;
+				INFOPLIST_FILE = "Desafio-j1b/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thyagoraphael.com.Desafio-j1b";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6DE746C2734284200D3711B /* Build configuration list for PBXProject "Desafio-j1b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DE74832734284500D3711B /* Debug */,
+				F6DE74842734284500D3711B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DE74852734284500D3711B /* Build configuration list for PBXNativeTarget "Desafio-j1b" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6DE74862734284500D3711B /* Debug */,
+				F6DE74872734284500D3711B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6DE74692734284200D3711B /* Project object */;
+}
